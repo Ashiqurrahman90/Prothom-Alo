@@ -1,0 +1,73 @@
+.img-fluid.w-50 {
+	width: 40% !important;
+}
+.container {
+	max-width: 1280px;
+}
+
+.nav-topup{
+    text-align: center;
+}
+.nav-topup li a{
+    font-size: x-small;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 10px;
+    margin-right: 1px;
+}
+
+.title{
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+}
+.title:hover{
+    color: #534DBC;
+}
+
+.time{
+    color: #666;
+    font-size: 12px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+.right-br{
+    border-right: 1px solid #C8C9CA; 
+}
+.ai-ekta-img {
+	background: url(https://images.prothomalo.com/prothomalo-bangla%2F2021-03%2F07f1e300-f2fb-45a4-8084-f95699448057%2FThumb.jpg?auto=format%2Ccompress&fmt=webp&format=webp&w=610&dpr=1.0);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	z-index: 1;
+	padding-top: 147px;
+	padding-bottom: 20px;
+	margin-top: 15px;
+}
+.ai-ekta-img:after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: -webkit-linear-gradient(rgba(255, 255, 0, 0), #333);
+	background: linear-gradient(rgba(255, 255, 0, 0), #333);
+	opacity: .9;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	z-index: -1;
+}
+.card-img-hover img{
+    -webkit-transition: .1s;
+    transition: .1s;
+    
+}
+.card{
+    overflow: hidden;
+}
+.card:hover .card-img-hover img{
+    -webkit-transform: scale(1.1) !important;
+            transform: scale(1.1) !important;
+}
